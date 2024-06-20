@@ -131,4 +131,6 @@ Semantic anomaly detection results on dataset $\mathcal{D}_2$. The best results 
 
 This command will directly apply our fine-tuned model (llama-13b-int4-dolly) to the user's real-world event log in '.xes' format.
 
-We provide the real-world logs '_BPIC20_PermitLog.zip_' and '_Road_Traffic_Fine_Management_Process.zip_'. You can unzip these files to conduct your tests.
+We provide the zip files of real-world logs: '_BPIC20_PermitLog.zip_' and '_Road_Traffic_Fine_Management_Process.zip_'. 
+After unzipping these files, you will obtain '_BPIC20_PermitLog.xes_' and '_Road_Traffic_Fine_Management_Process.xes_'. 
+You can use these '.xes' files to conduct your tests.
