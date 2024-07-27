@@ -659,14 +659,12 @@ def gen_train_test_spilt_data(times=2):
                     this_data_dict = {}
                     this_data_dict['trace'] = '[' + ','.join(trace) + ']'
                     this_data_dict['label'] = 'anomalous'
-                    # this_data_dict['raw_cause'] = label
                     this_data_dict['cause'] = extract_cause(label, trace)
                     data_list.append(this_data_dict)
 
                     this_data_dict = {}
                     this_data_dict['trace'] = '[' + ','.join(trace) + ']'
                     this_data_dict['label'] = 'anomalous'
-                    # this_data_dict['raw_cause'] = label
                     this_data_dict['cause'] = ''
                     data_list.append(this_data_dict)
         if ith % 1000 == 0:
