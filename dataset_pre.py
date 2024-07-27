@@ -643,12 +643,15 @@ def gen_train_test_spilt_data(times=2):
                     trace.append(event['name'])
                 label = case['attributes']['label']
                 if label == 'normal':
+                    if tuple(trace) in normal_traces:
+                        continue
+
+                    normal_traces.add(tuple(trace))
                     this_data_dict = {}
                     this_data_dict['trace'] = '[' + ','.join(trace) + ']'
                     this_data_dict['label'] = label
                     this_data_dict['cause'] = ''
                     [data_list.append(this_data_dict) for _ in range(times * 5)]
-                    normal_traces.add(tuple(trace))
                 else:  # 加两条训练数据，一条带cause 一条不带cause
                     if tuple(trace) in normal_traces:
                         continue
