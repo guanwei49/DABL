@@ -43,7 +43,7 @@ In summary, the test dataset $\mathcal{D}_1$ is used to evaluate the model's gen
 model can detect anomalies of unseen processes. The test dataset $\mathcal{D}_2$ aims to validate the model's
 performance on seen processes but unseen anomalies (i.e., learning of given processes).
 
-## Experiment results
+## Experiment Results
 
 Semantic anomaly detection results on dataset $\mathcal{D}_1$. The best results are indicated using bold typeface.
 
