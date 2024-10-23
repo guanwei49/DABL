@@ -1,4 +1,4 @@
-# DABL: Detecting Semantic Anomalies in Business Processes Using Large Language Models
+# [DABL: Detecting Semantic Anomalies in Business Processes Using Large Language Models](https://arxiv.org/abs/2406.15781)
 
 Detecting anomalies in business processes is crucial for ensuring operational success. While many existing methods rely
 on statistical frequency to detect anomalies, it's important to note that infrequent behavior doesn't necessarily imply
@@ -134,3 +134,14 @@ This command will directly apply our fine-tuned model (llama-13b-int4-dolly) to 
 We provide the zip files of real-world logs: '_BPIC20_PermitLog.zip_' and '_Road_Traffic_Fine_Management_Process.zip_'. 
 After unzipping these files, you will obtain '_BPIC20_PermitLog.xes_' and '_Road_Traffic_Fine_Management_Process.xes_'. 
 You can use these '.xes' files to conduct your tests.
+
+
+## To Cite Our Paper
+```
+@article{guan2024dabl,
+  title={DABL: Detecting Semantic Anomalies in Business Processes Using Large Language Models},
+  author={Guan, Wei and Cao, Jian and Gao, Jianqi and Zhao, Haiyan and Qian, Shiyou},
+  journal={arXiv preprint arXiv:2406.15781},
+  year={2024}
+}
+```
