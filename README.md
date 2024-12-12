@@ -114,8 +114,11 @@ Semantic anomaly detection results on dataset $\mathcal{D}_2$. The best results 
 
 4. Generate Datasets
 - Run ```python dataset_pre.py``` from the root directory.
+- We have provided the test datasets $\mathcal{D}_1$ and $\mathcal{D}_2$ in the '_dataset_' folder. 
+The file '_test_dataset_1.jsonl_' is test dataset $\mathcal{D}_1$ for evaluating anomaly detection performance, while '_test_dataset_cause_1.jsonl_', which contains only anomalies, is test dataset $\mathcal{D}_1$ for evaluating the interpretation of the cause of anomalies.
+Similarly, there are corresponding files for test dataset $\mathcal{D}_2$.
 
-4. Fine-tune Llama2. This step can be skipped by directly using our fine-tuned model (llama-13b-int4-dolly) 
+4. Fine-tune Llama2. **This step can be skipped by directly using our fine-tuned model (llama-13b-int4-dolly)** 
 - Run ```python fine-tune-BPAD.py``` from the root directory to get fine-tuned model (llama-13b-int4-dolly) 
 
 5. Evaluate on test dataset.
