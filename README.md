@@ -141,10 +141,13 @@ You can use these '.xes' files to conduct your tests.
 
 ## To Cite Our Paper
 ```
-@article{guan2024dabl,
-  title={DABL: Detecting Semantic Anomalies in Business Processes Using Large Language Models},
+@inproceedings{guan2025dabl,
+  title={Dabl: Detecting semantic anomalies in business processes using large language models},
   author={Guan, Wei and Cao, Jian and Gao, Jianqi and Zhao, Haiyan and Qian, Shiyou},
-  journal={arXiv preprint arXiv:2406.15781},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={11},
+  pages={11735--11744},
+  year={2025}
 }
 ```
